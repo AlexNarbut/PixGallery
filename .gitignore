@@ -1,0 +1,41 @@
+#Android generated
+bin
+gen
+lint.xml
+lint
+
+#IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+classes
+gen-external-apklibs
+
+#vi
+*.swp
+
+#other editors
+*.bak
+
+
+#Maven
+target
+release.properties
+pom.xml.*
+
+#gradle
+.gradle
+local.properties
+gradlew
+gradlew.bat
+gradle/
+build/
+
+#Other
+.DS_Store
+Thumbs.db
+tmp
+*.lock
+*.log
+.externalNativeBuild

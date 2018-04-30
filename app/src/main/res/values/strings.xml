@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Gallery</string>
+
+
+    <!-- Main Activity Start-->
+    <string name="text_main_activity_menu_gallery">Gallery</string>
+    <string name="text_main_activity_menu_settings">Settings</string>
+    <!-- Main Activity End-->
+
+    <!-- Photo Search Start-->
+    <string name="text_photo_search_title">Photo</string>
+
+    <string name="photo_transition">photoTransName</string>
+    <!-- Photo Search End-->
+
+    <!-- Main menu Start-->
+    <string name="action_open_source">Project</string>
+    <string name="action_search">Search</string>
+    <string name="action_about">About</string>
+    <!-- Main menu End-->
+
+    <!-- Full screen Activity Start-->
+    <string name="text_full_screen_title">Photo</string>
+    <string name="text_full_screen_loading_title">File download</string>
+    <string name="text_full_screen_loading">Downloading file from internet</string>
+    <string name="text_full_screen_loading_is_completed">Loading is completed</string>
+    <!-- Full screen Activity End-->
+
+    <!-- About Activity Start-->
+    <string name="text_about_title">About app</string>
+    <string name="text_about_app_descrp">Gallery is a mobile application that allows you to search, view and save images of a well-known Pixabay service.
+        This application was specially developed for selection in the Yandex mobile development school.</string>
+    <string name="text_about_title_version">Version: </string>
+
+    <string name="text_button_developer">Contact with developer</string>
+    <string name="text_button_git_hub">Project Repository</string>
+    <!-- About Activity End-->
+
+    <!-- Button Start-->
+    <string name="button_text_ok">OK</string>
+    <!-- Button end Start-->
+
+
+    <!-- Notification Start-->
+    <string name="notif_file_channel">File download</string>
+    <string name="notif_file_is_download">File was downloaded</string>
+    <!-- Notification Start-->
+
+
+    <!-- Permissions Start-->
+
+    <string name="permission_error_write_read_external_storage">To download photos you need access to your folders</string>
+    <!-- Permissions end-->
+
+
+    <!--Error Start-->
+    <string name="text_error_default">An error has occurred. Try again</string>
+    <string name="text_error_convert_data">Data convert error</string>
+    <string name="text_error_max_query_length">Number of characters is no more than </string>
+
+    <string name="text_error_http">An internet connection error has occurred. try later</string>
+    <string name="text_error_http_400">No more data, please try again later</string>
+    <string name="text_error_http_429">Data request limit exceeded, please try later</string>
+    <string name="text_error_photos_not_found">Photos were not found</string>
+    <string name="text_error_photo_not_load">An error has occurred. Photo was not load</string>
+    <string name="text_error_internet_is_not_exist">No connection. It seems that you are not connected to the Internet</string>
+    <string name="text_error_file_write">File write error. Check the application right and free memory on mobile</string>
+
+    <!--Error Start-->
+
+    <!--Contact Start-->
+    <string name="url_developer" formatted="false">https://vk.com/axel_jackal</string>
+    <string name="url_github" formatted="false">https://github.com/AlexNarbut/PixGallery</string>
+    <!--Contact end-->
+
+</resources>

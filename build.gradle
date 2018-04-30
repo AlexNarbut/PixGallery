@@ -1,0 +1,37 @@
+apply from: 'gbuild/dependencies.gradle'
+
+buildscript {
+
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.1'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        google()
+    }
+
+    ext {
+        androidApplicationId = 'ru.narbut.axel.gallery'
+        androidVersionCode = 1
+        androidVersionName = "1.0"
+        testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
+        testApplicationId = 'ru.alarmtrade.pandora.pandorapro.test'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+

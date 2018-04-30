@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Галерея</string>
+
+
+    <!-- Main Activity Start-->
+    <string name="text_main_activity_menu_gallery">Галерея</string>
+    <string name="text_main_activity_menu_settings">Настройки</string>
+    <!-- Main Activity End-->
+
+    <!-- Photo Search Start-->
+    <string name="text_photo_search_title">Фото</string>
+    <string name="photo_transition">photoTransName</string>
+    <!-- Photo Search End-->
+
+    <!-- Main menu Start-->
+    <string name="action_open_source">Проект</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_about">О нас</string>
+    <!-- Main menu End-->
+
+    <!-- Full screen Activity Start-->
+    <string name="text_full_screen_title">Фото</string>
+    <string name="text_full_screen_loading_title">Загрузка</string>
+    <string name="text_full_screen_loading">Идет загрузка файла с Интернета</string>
+    <string name="text_full_screen_loading_is_completed">Загрузка завершена</string>
+    <!-- Full screen Activity End-->
+
+    <!-- About Activity Start-->
+    <string name="text_about_title">О приложении</string>
+    <string name="text_about_app_descrp">Галерея - это мобильное приложение, которое позволяет искать, просматривать и сохранять изображения известного сервиса Pixabay.
+        Данное приложение было специально разработано для отбора в Школу мобильной разработки Яндекс.</string>
+    <string name="text_about_title_version">Версия: </string>
+
+    <string name="text_button_developer">Связаться с разработчиком</string>
+    <string name="text_button_git_hub">Репозиторий проекта</string>
+    <!-- About Activity End-->
+
+    <!-- Button Start-->
+    <string name="button_text_ok">OK</string>
+    <!-- Button end Start-->
+
+    <!-- Notification Start-->
+    <string name="notif_file_channel">Загрузка файла</string>
+    <string name="notif_file_is_download">Файл загружен</string>
+    <!-- Notification Start-->
+
+    <!-- Permissions Start-->
+
+    <string name="permission_error_write_read_external_storage">Для загрузки фотографий необходим доступ к вашим папкам</string>
+    <!-- Permissions end-->
+
+
+    <!--Error Start-->
+    <string name="text_error_default">Произошла ошибка. Попробуйте позже</string>
+    <string name="text_error_convert_data">Ошибка принятых данных. Попробуйте еще раз </string>
+    <string name="text_error_max_query_length">Количество символов не более </string>
+
+    <string name="text_error_http">Произошла ошибка интернет-соединения. Попробуйте позже</string>
+    <string name="text_error_http_400">Данных больше нет, попробуйте позже</string>
+    <string name="text_error_http_429">Превышен лимит запроса данных. Попробуйте позже</string>
+    <string name="text_error_photos_not_found">Фотографий не найдено</string>
+    <string name="text_error_photo_not_load">Произошла ошибка. Фотография не была загружена</string>
+    <string name="text_error_internet_is_not_exist">Нет соединения. Кажется, что вы не подключены к Интернету</string>
+    <string name="text_error_file_write">Ошибка записи файла. Проверьте разрешения приложения и свободную память на мобильном телефоне</string>
+
+    <!--Error Start-->
+
+    <!--Contact Start-->
+    <string name="url_developer" formatted="false">https://vk.com/axel_jackal</string>
+    <string name="url_github" formatted="false">https://github.com/AlexNarbut/PixGallery</string>
+    <!--Contact end-->
+
+</resources>
