@@ -24,7 +24,6 @@ public abstract class BaseLceFragment<CV extends View, M, V extends MvpLceView<M
     @Override public void onCreate(Bundle savedInstanceState) {
         injectDependencies();
         super.onCreate(savedInstanceState);
-        setRetainInstance(true);
     }
 
     @Override

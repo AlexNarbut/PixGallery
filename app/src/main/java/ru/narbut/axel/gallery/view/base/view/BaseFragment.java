@@ -22,7 +22,6 @@ public abstract class BaseFragment extends Fragment {
     @Override public void onCreate(Bundle savedInstanceState) {
         injectDependencies();
         super.onCreate(savedInstanceState);
-        setRetainInstance(true);
     }
 
     @Override

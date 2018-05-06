@@ -103,7 +103,6 @@ public class PhotoSearchFragment
         scrollListener = new EndlessScrollListener(lm,currentLoadPage) {
             @Override public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
                 currentLoadPage = page;
-                Log.d("Load more", "scroll listener event  p - " + page );
                 loadData(false);
             }
         };
@@ -233,7 +232,6 @@ public class PhotoSearchFragment
 
     @Override
     public void setData(List<PhotoModel> data) {
-        if(photoAdapter == null || isRestoringViewState()) return;
         photoAdapter.addItems(data);
     }
 
